@@ -1,0 +1,124 @@
+
+@media (max-width: 920px){
+       /* Nav */
+      .nav_link{
+         display: none;
+      }
+
+      .nav_label{
+         display: block;
+      }
+
+      
+
+        /* HERO */
+      .cta_1{
+         margin: 0 auto;
+      }
+    
+       /* ABOUT */
+      .about{
+         flex-wrap: wrap;
+      }
+      .about_text{
+         width: 100%;
+         text-align: center;
+      }
+      .about_img{
+         width: 100%;
+         padding: 40px 20px;
+      }
+   
+      .cta_2{
+         width: 80%;
+         margin: 0 auto;
+      }
+   
+       /* BLOQUE CARD */
+      .product_txt{
+         text-align: center;
+      }
+      .row{
+         flex-wrap: wrap;
+         display: flex;
+         flex-direction: column;
+      }
+      .card{
+         padding:80px 20px;
+         margin: 50px;
+         margin: 0 auto;
+      }
+      .card_img{
+         width: 100%;
+         display: block;
+      }
+   }
+
+   @media (max-width: 768px){
+      .card_content{
+         display: flex;
+         flex-direction: column;
+      }
+      .read_more_box{
+       text-align: center;
+      }
+   }
+
+   @media (max-width: 600px){
+      .title{
+        font-size:2.5rem;
+      }
+     .hero_subtitle{
+        font-size:1.5rem;
+      }
+
+      .address{
+         text-align: center;
+      }
+      .cont{
+        text-align: center;
+      }
+      .data{
+        text-align: center;
+      }
+      .networks{
+        text-align: center;
+      }
+      .social{
+        justify-content: center;
+      }
+   }
+
+
+   /* FORMULARIO REGISTRO */
+   @media(min-width:768){
+      .formulario{
+         margin:auto;
+         width: 500px;
+         margin-top: 150px;
+      }
+      .record_title{
+         font-size: 2rem;
+    }
+   }
+
+
+    /*
+    .nav_label{
+        /* display: block; 
+         cursor: pointer;
+    }
+    .nav_link{
+         position: fixed;
+         top:80px;
+         bottom: 0;
+         background:black;
+         width: 100%;
+         left:0;
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         align-items: center;
+   }
+   */
+ 

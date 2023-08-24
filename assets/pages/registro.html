@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mediaqueri.css">
+
+    <!-- TIPOGRAFIAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/824b08fcbd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="nav">
+            <div class="nav_container">
+                <a class="nav_logo" href="/index.html">ECOSTORE</a>
+            
+                <label for="menu" class="nav_label">
+                  <img class="nav_img" src="../icon/menu.svg" alt="menu">
+                </label>
+       
+                <input type="checkbox" id="menu" class="nav_input">
+       
+                <nav class="nav_link">
+                    <a href="/index.html"> Inicio </a>
+                    <a href="/index.html"> Nosotras </a>
+                    <a href="/index.html"> Productos </a>
+                    <a href="/index.html"> Novedades </a>
+                    <a href="/index.html"> Contacto </a>
+                    <a href="../pages/registro.html"> Registro </a>
+                    <a href="../pages/login.html"> Login </a>
+                </nav>
+             </div>
+        </div>
+
+      <section id="hero" class="hero container">
+
+          <form class="formulario">
+            <h1 class="record_title">Registro</h1>
+            <div class="contenedor">
+                <div class="input_contenedor">
+                    <img src="../icon/user-solid.svg" class="icon_2" alt="icon user">
+                    <input type="text" placeholder="Nombre completo"  class="input_input">
+                </div>
+        
+                <div class="input_contenedor">
+                    <img src="../icon/envelope-solid.svg" class="icon_2" alt="icon contact">
+                    <input type="text" placeholder="Correo"class="input_input" >
+                </div>
+        
+                <div class="input_contenedor">
+                   <img src="../icon/lock-solid.svg" class="icon_2" alt="icon password">
+                    <input type="password" placeholder="Contraseña" class="input_input" >
+                </div>
+                <input type="submit" value="Registrate" class="button">
+                <p class="record_p">Al registrarte, acepta nuestras Condiciones de uso y Políticas de privacidad</p>
+                <p class="record_p">¿Ya tienes cuenta? </p>
+                <a href="login.html" class="login">Iniciar Sesion</a>
+            </div>
+           </form>
+
+      </section>
+    </header>
+
+    <footer id="footer">
+        <div class="sub_3">
+            <small> &copy;2023 <b>Ecostore</b> - Todos los derechos reservados</small>
+         </div>
+    </footer>
+</body>
+</html>
