@@ -84,6 +84,11 @@ body{
       transform-origin: left;
       transform: scaleX(1);
 }
+.nav_lable{
+     position: absolute;
+     top:0.5rem;
+     right: 1rem;
+}
 
 .nav_label, .nav_input{
       display: none;
@@ -398,7 +403,6 @@ body{
 }
 .sub_conten{
      width: 80%;
-     background: rgba(0,22,0,0.7);
      display: flex;
      justify-content: center;
      align-items: center;
@@ -406,6 +410,9 @@ body{
      gap:10px;
      padding: 20px;
      border-radius: 10px;
+     background: rgba(255, 255, 255, 0.30);
+     box-shadow: 0 8px 32px 0 rgba(31, 33, 135, 0.37);
+     backdrop-filter:blur(2px);
 }
 
 .sub_conten h2{
@@ -493,7 +500,7 @@ body{
 /* HOJA DE REGISTRO  y LOGIN*/
 
 .formulario{
-     border: 1px solid rgba(0,0,0,0.4);
+     border: 2px solid #d96a41bb;
      border-radius: 5px;
      padding: 20px;
 }
@@ -513,9 +520,9 @@ body{
 }
 
 .icon_2{
-     text-align: center;
      width: 20px;
-     color:#fff; 
+     padding-left: 4px;
+     filter:invert(1);
 }
 .input_input{
      width: 95%;
@@ -528,7 +535,7 @@ body{
      justify-content: space-around;
      gap:5px;
      margin: 15px 0px;
-     border: 1px solid #aaa;
+     border: 1px solid #fff;
      width: 80%;
      font-size: 1rem;
 }
